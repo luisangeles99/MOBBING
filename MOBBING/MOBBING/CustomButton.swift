@@ -23,10 +23,10 @@ class CustomButton: UIButton {
     func setupButton(){
         setTitleColor(.white, for: .normal)
         titleLabel?.font = UIFont(name: "AvenirNext-DemiBold", size: 18)
-        backgroundColor = UIColor.purple.withAlphaComponent(0.7)
+        backgroundColor = UIColor.purple.withAlphaComponent(0.9)
         layer.cornerRadius = 20
         layer.borderWidth = 3.0
-        layer.borderColor = UIColor.lightGray.cgColor
+        layer.borderColor = UIColor.purple.cgColor
     }
     
     

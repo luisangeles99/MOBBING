@@ -20,7 +20,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSr-eQ-wzq" customClass="CustomButton" customModule="MOBBING" customModuleProvider="target">
-                                <rect key="frame" x="129" y="616" width="156" height="53"/>
+                                <rect key="frame" x="85" y="616" width="244" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -28,7 +28,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Crt-k0-Dsi" customClass="CustomButton" customModule="MOBBING" customModuleProvider="target">
-                                <rect key="frame" x="129" y="706" width="156" height="57"/>
+                                <rect key="frame" x="85" y="706" width="255" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -40,6 +40,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="IbF-tf-PGa"/>
+                    <connections>
+                        <outlet property="logo" destination="ynd-eZ-qKO" id="0V8-IG-bS7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -94,13 +97,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GZ2-Go-Cpb" customClass="CustomButton" customModule="MOBBING" customModuleProvider="target">
-                                <rect key="frame" x="184" y="575" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="registro:" destination="4DI-xZ-OlD" eventType="touchUpInside" id="mB7-g7-Fwk"/>
-                                </connections>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="k8U-aW-QPK">
                                 <rect key="frame" x="0.0" y="695" width="414" height="201"/>
                                 <subviews>
@@ -121,6 +117,13 @@
                                     <constraint firstItem="p2Q-pF-DaO" firstAttribute="height" secondItem="WGS-Ov-VVa" secondAttribute="height" multiplier="3" id="YH9-Qk-TJd"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GZ2-Go-Cpb" customClass="CustomButton" customModule="MOBBING" customModuleProvider="target">
+                                <rect key="frame" x="60" y="566" width="294" height="83"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="registro:" destination="4DI-xZ-OlD" eventType="touchUpInside" id="mB7-g7-Fwk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -261,6 +264,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVC-WY-EcB" customClass="CustomButton" customModule="MOBBING" customModuleProvider="target">
                                         <rect key="frame" x="30" y="172" width="354" height="86"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="y8J-xP-40M" kind="show" identifier="realizarCuestionario" id="uBf-f0-iJf"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -281,9 +287,6 @@
                         <viewLayoutGuide key="safeArea" id="CVW-8T-mdI"/>
                     </view>
                     <navigationItem key="navigationItem" id="qGm-SP-VLq"/>
-                    <connections>
-                        <segue destination="LWP-PB-HKV" kind="show" identifier="resultados" id="kgE-z8-mch"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cqa-Xa-b4b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -303,7 +306,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qDj-s5-gFQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5428" y="-977"/>
+            <point key="canvasLocation" x="6238" y="-977"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Pfs-DV-rb3">
@@ -320,6 +323,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6sF-9G-qhU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-520" y="138"/>
+        </scene>
+        <!--Realizar Qul-->
+        <scene sceneID="1vh-7r-qhc">
+            <objects>
+                <viewController id="y8J-xP-40M" customClass="realizarQul" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NO0-aw-dXq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="0a0-ZD-wIc"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="C8i-dS-BS6"/>
+                    <connections>
+                        <segue destination="LWP-PB-HKV" kind="show" identifier="resultados" id="DSW-Ki-9U1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FHh-dK-P8G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5169.5652173913049" y="-977.00892857142856"/>
         </scene>
     </scenes>
 </document>
