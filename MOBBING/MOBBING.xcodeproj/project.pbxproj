@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		887EA0522561D77200644E0C /* realizarQul.m in Sources */ = {isa = PBXBuildFile; fileRef = 887EA0512561D77200644E0C /* realizarQul.m */; };
 		88C63A63255B2CD5006DB84C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A62255B2CD5006DB84C /* AppDelegate.swift */; };
 		88C63A65255B2CD5006DB84C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A64255B2CD5006DB84C /* SceneDelegate.swift */; };
 		88C63A67255B2CD5006DB84C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A66255B2CD5006DB84C /* ViewController.swift */; };
@@ -24,6 +25,9 @@
 		88C63A9F255CE769006DB84C /* editarInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A9E255CE769006DB84C /* editarInfoViewController.swift */; };
 		88C63AA1255CE777006DB84C /* mostrarResultadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63AA0255CE777006DB84C /* mostrarResultadosViewController.swift */; };
 		88C63AA32561053F006DB84C /* preguntas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88C63AA22561053F006DB84C /* preguntas.plist */; };
+		88C63AA52561BF10006DB84C /* realizarCuestionarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63AA42561BF10006DB84C /* realizarCuestionarioViewController.swift */; };
+		88C63AA72561C7B5006DB84C /* preguntas.json in Resources */ = {isa = PBXBuildFile; fileRef = 88C63AA62561C7B5006DB84C /* preguntas.json */; };
+		F51F1620A56919794F0906E8 /* Pods_MOBBING.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B25A9E500E13CD0024C1E4 /* Pods_MOBBING.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18E1497911496DAE382DE758 /* Pods-MOBBING.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOBBING.release.xcconfig"; path = "Target Support Files/Pods-MOBBING/Pods-MOBBING.release.xcconfig"; sourceTree = "<group>"; };
+		24B25A9E500E13CD0024C1E4 /* Pods_MOBBING.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MOBBING.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		887EA0502561D77100644E0C /* MOBBING-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MOBBING-Bridging-Header.h"; sourceTree = "<group>"; };
+		887EA0512561D77200644E0C /* realizarQul.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = realizarQul.m; sourceTree = "<group>"; };
+		887EA0532561D7DE00644E0C /* realizarQul.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = realizarQul.h; sourceTree = "<group>"; };
 		88C63A5F255B2CD5006DB84C /* MOBBING.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOBBING.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C63A62255B2CD5006DB84C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88C63A64255B2CD5006DB84C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +76,9 @@
 		88C63A9E255CE769006DB84C /* editarInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editarInfoViewController.swift; sourceTree = "<group>"; };
 		88C63AA0255CE777006DB84C /* mostrarResultadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mostrarResultadosViewController.swift; sourceTree = "<group>"; };
 		88C63AA22561053F006DB84C /* preguntas.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = preguntas.plist; sourceTree = "<group>"; };
+		88C63AA42561BF10006DB84C /* realizarCuestionarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realizarCuestionarioViewController.swift; sourceTree = "<group>"; };
+		88C63AA62561C7B5006DB84C /* preguntas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = preguntas.json; sourceTree = "<group>"; };
+		DA65DD3E59AC7D57E0352AAF /* Pods-MOBBING.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOBBING.debug.xcconfig"; path = "Target Support Files/Pods-MOBBING/Pods-MOBBING.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51F1620A56919794F0906E8 /* Pods_MOBBING.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +107,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2524A733803FF423A4A65383 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA65DD3E59AC7D57E0352AAF /* Pods-MOBBING.debug.xcconfig */,
+				18E1497911496DAE382DE758 /* Pods-MOBBING.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		88C63A56255B2CD5006DB84C = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +123,8 @@
 				88C63A78255B2CD7006DB84C /* MOBBINGTests */,
 				88C63A83255B2CD7006DB84C /* MOBBINGUITests */,
 				88C63A60255B2CD5006DB84C /* Products */,
+				2524A733803FF423A4A65383 /* Pods */,
+				89B378F125BEB77B1F5AEDB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +146,9 @@
 				88C63A66255B2CD5006DB84C /* ViewController.swift */,
 				88C63A92255C8C49006DB84C /* CustomButton.swift */,
 				88C63A68255B2CD5006DB84C /* Main.storyboard */,
+				887EA0512561D77200644E0C /* realizarQul.m */,
+				887EA0532561D7DE00644E0C /* realizarQul.h */,
+				88C63AA42561BF10006DB84C /* realizarCuestionarioViewController.swift */,
 				88C63AA0255CE777006DB84C /* mostrarResultadosViewController.swift */,
 				88C63A98255CE740006DB84C /* listaOpcionesViewController.swift */,
 				88C63A9A255CE74B006DB84C /* cuestionarioViewController.swift */,
@@ -132,7 +159,9 @@
 				88C63A96255CE728006DB84C /* loginViewController.swift */,
 				88C63A6B255B2CD7006DB84C /* Assets.xcassets */,
 				88C63A6D255B2CD7006DB84C /* LaunchScreen.storyboard */,
+				88C63AA62561C7B5006DB84C /* preguntas.json */,
 				88C63A70255B2CD7006DB84C /* Info.plist */,
+				887EA0502561D77100644E0C /* MOBBING-Bridging-Header.h */,
 			);
 			path = MOBBING;
 			sourceTree = "<group>";
@@ -155,6 +184,14 @@
 			path = MOBBINGUITests;
 			sourceTree = "<group>";
 		};
+		89B378F125BEB77B1F5AEDB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24B25A9E500E13CD0024C1E4 /* Pods_MOBBING.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88C63A89255B2CD7006DB84C /* Build configuration list for PBXNativeTarget "MOBBING" */;
 			buildPhases = (
+				BD118F97F8816BCC8DB463D1 /* [CP] Check Pods Manifest.lock */,
 				88C63A5B255B2CD5006DB84C /* Sources */,
 				88C63A5C255B2CD5006DB84C /* Frameworks */,
 				88C63A5D255B2CD5006DB84C /* Resources */,
+				9204931AD4EBA054CFEC699C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,6 +262,7 @@
 				TargetAttributes = {
 					88C63A5E255B2CD5006DB84C = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					88C63A74255B2CD7006DB84C = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -261,6 +301,7 @@
 			files = (
 				88C63A6F255B2CD7006DB84C /* LaunchScreen.storyboard in Resources */,
 				88C63A6C255B2CD7006DB84C /* Assets.xcassets in Resources */,
+				88C63AA72561C7B5006DB84C /* preguntas.json in Resources */,
 				88C63AA32561053F006DB84C /* preguntas.plist in Resources */,
 				88C63A6A255B2CD5006DB84C /* Main.storyboard in Resources */,
 			);
@@ -282,6 +323,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9204931AD4EBA054CFEC699C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MOBBING/Pods-MOBBING-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MOBBING/Pods-MOBBING-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MOBBING/Pods-MOBBING-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD118F97F8816BCC8DB463D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MOBBING-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88C63A5B255B2CD5006DB84C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -296,6 +379,8 @@
 				88C63AA1255CE777006DB84C /* mostrarResultadosViewController.swift in Sources */,
 				88C63A99255CE740006DB84C /* listaOpcionesViewController.swift in Sources */,
 				88C63A63255B2CD5006DB84C /* AppDelegate.swift in Sources */,
+				88C63AA52561BF10006DB84C /* realizarCuestionarioViewController.swift in Sources */,
+				887EA0522561D77200644E0C /* realizarQul.m in Sources */,
 				88C63A9B255CE74B006DB84C /* cuestionarioViewController.swift in Sources */,
 				88C63A65255B2CD5006DB84C /* SceneDelegate.swift in Sources */,
 			);
@@ -468,8 +553,10 @@
 		};
 		88C63A8A255B2CD7006DB84C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA65DD3E59AC7D57E0352AAF /* Pods-MOBBING.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MOBBING/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -478,6 +565,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = luisangeles.MOBBING;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MOBBING/MOBBING-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -485,8 +574,10 @@
 		};
 		88C63A8B255B2CD7006DB84C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E1497911496DAE382DE758 /* Pods-MOBBING.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MOBBING/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -495,6 +586,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = luisangeles.MOBBING;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MOBBING/MOBBING-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

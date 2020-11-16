@@ -1,0 +1,20 @@
+PODS:
+  - QULQuestionnaire (0.3.1):
+    - RMStepsController (~> 1.0.1)
+  - RMStepsController (1.0.2)
+
+DEPENDENCIES:
+  - QULQuestionnaire (~> 0.1)
+
+SPEC REPOS:
+  trunk:
+    - QULQuestionnaire
+    - RMStepsController
+
+SPEC CHECKSUMS:
+  QULQuestionnaire: 185105707ad4b32a01af38e94792502bb9ae5d31
+  RMStepsController: 195aa02c57ee5fea74483d0b9dcc30881ae7639d
+
+PODFILE CHECKSUM: f2bf27d0c88f95ee5593e0e244b55766e5b95834
+
+COCOAPODS: 1.10.0

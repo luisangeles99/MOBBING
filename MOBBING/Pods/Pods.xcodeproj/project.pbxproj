@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E0C16FE9F6F6A41B8A316697EE4D28 /* RMStepsController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBF2D7302879E1386B1A9577CF6F534 /* RMStepsController-dummy.m */; };
+		08C61802BC5780D69F566310E4F2F983 /* QULQuestionnaireSortableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679CD449E3E5728281ABCA4CAEDE0F1E /* QULQuestionnaireSortableViewController.m */; };
+		0A9650FC06D4BA3DD745CFA106496C93 /* QULQuestionnaireMultiSelectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C77B447F384D9C21567213348390382 /* QULQuestionnaireMultiSelectViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DD16373D8F7B012E4CA641242B5BFFB /* QULQuestionnaireSmileyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8E193778017F99ACA31474D14C57E2 /* QULQuestionnaireSmileyViewController.m */; };
+		2365992FE32BD20F7C98A934C0AED4CF /* QULQuestionnaireSingleSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD51CF277EF9A54D41940A66792751 /* QULQuestionnaireSingleSelectViewController.m */; };
+		27CD969BDD36CD45B4349F014E8D9B32 /* QULQuestionnaireViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 09A53798B427F73A27ED14AF0BB9264A /* QULQuestionnaireViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		290715893FEEC6EA73E884E07D5039C7 /* QULQuestionnaireTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B13148253B02E6502172CAB76DB803 /* QULQuestionnaireTextViewController.m */; };
+		36D3FFD575017F42E06A99E21C3A3D11 /* QULQuestionnaireInstructionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B4F2C64724ED747C6BA853823BD7BC /* QULQuestionnaireInstructionViewController.m */; };
+		3D8981A06DD0BDE122D7502AA1ADC03F /* QULQuestionnaire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D0AD9299B54CAC099C8C37198A7A3D /* QULQuestionnaire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E9DEFB798D01D3B0F9066FAF3D3381D /* QULQuestionnaireSingleSelectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 67FEE23EC8229FE703778CD4D2913BF1 /* QULQuestionnaireSingleSelectViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A67CEBF5E3C5012C65D9CE32E96D1C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7EE564F64F9340B651A8D79C73DBBF /* Foundation.framework */; };
+		5C25D7266E3AD269FD1561BD3C71E99C /* RMStepsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B76119A2CC34388E8EAF206C65A6B8 /* RMStepsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C304DDFA1825FB6D389D68B9B5A50B /* RMStepsBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D6BE74C9068E030A6E233652CA98A774 /* RMStepsBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		660FCC24690739D6751D714D13F8D16A /* Pods-MOBBING-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99770019060148C4AA3224C6C0B2958A /* Pods-MOBBING-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66FC7BE9336B892184C44F72C3DEF02A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7EE564F64F9340B651A8D79C73DBBF /* Foundation.framework */; };
+		6A5767D33E8B22F48BC233DF4F618191 /* RMStepsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BE5CEA070A189853C8087B88C13AA1 /* RMStepsController.m */; };
+		85503641D7378BDBB2572B089EF55DD8 /* RMStepsController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4B2ACB592F8259432663A41EE3DCFC /* RMStepsController.framework */; };
+		8B8793EE3EF5D0ABAA0737FC3B9EC1C2 /* NSMutableArray+Shuffle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1156DEF9E05B49375AF6D0CEA21FAF89 /* NSMutableArray+Shuffle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F4981AED0931A86CCC0D18836414B08 /* QULQuestionnaireSmileyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EB61DD240FA82E7C5AD73923B3B53F3E /* QULQuestionnaireSmileyViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A411D65FC8E6435BD325522D0A4852C /* QULQuestionnaireTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AC2A3587DB32AB432A91F797F5F50757 /* QULQuestionnaireTextViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F5D9CFC8FC3ED263049561BE612E76F /* RMStepsController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF203BC6D38D49FF4D053BEA28088E0 /* RMStepsController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8332D7EB0247E06FF716EC72DC7C4E3 /* QULQuestionnaireImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42A5FBEC0DF8C6734425C45E47B9454 /* QULQuestionnaireImages.xcassets */; };
+		ABF659BD3B106A71DCC8BE520604367B /* Pods-MOBBING-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0370485FB15C94AAFABC3E21652189 /* Pods-MOBBING-dummy.m */; };
+		AFBA9605931DAE33BE0C15F4D40EB293 /* RMStepsBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E36A6387D020D9C7173B73ECE9DBEAC5 /* RMStepsBar.m */; };
+		B49A6F09301F9BADACE59E50020C175A /* RMStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C71519FF25E30605D1275840C6C3ED9 /* RMStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA17A62256C796B6E7DBFEB7F8FB0C05 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83A0E7CA1E9DA0ED0D1F348DD734789 /* QuartzCore.framework */; };
+		C7BAC126C56A2A841C7F3AF5E32F3CBF /* QULQuestionnaireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9549EDD5BC042C248B3F57BB10C175D /* QULQuestionnaireViewController.m */; };
+		C8A9EFECC4D88D4951840AD056F90322 /* QULQuestionnaireSortableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0CBFB4B00EDFDC6359C552C008451E /* QULQuestionnaireSortableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD87FC03C4C4B37EB3952C96C47FB842 /* QULQuestionnaireSliderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 517BCE84B1C3B501B0D98481D2350468 /* QULQuestionnaireSliderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF18126AE1B3B242817B604DE7CCBD14 /* RMStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 653676420FFE8A136CC8AE81AD8BB631 /* RMStep.m */; };
+		D072AD95153CAFD414A4D001A3A4FE26 /* QULQuestionnaire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEACE27FCC1126E90D94F5F33AE2667A /* QULQuestionnaire-dummy.m */; };
+		D5B357A28571B76B5CB4B5F9B1F5D9C6 /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD2D20FB5DFDC47F840112560D4360D /* NSMutableArray+Shuffle.m */; };
+		D6C541C129EB661DABD5ECED3223D205 /* QULQuestionnaireMultiSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49782F4BD6D5094F3ED4F5652962C2D /* QULQuestionnaireMultiSelectViewController.m */; };
+		D7E5438F3046C849067F2C2AFBEBD11F /* QULQuestionnaireInstructionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A71C2E4EDD70CD1A757A24AD44523F98 /* QULQuestionnaireInstructionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1DF9788CAD7A25BC19C4C9F0659DC33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7EE564F64F9340B651A8D79C73DBBF /* Foundation.framework */; };
+		FCCC0652FD7A8A8AFC6D549868E5A513 /* QULQuestionnaireSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FFDC9CABA95C6BFFF0006445FD4B38 /* QULQuestionnaireSliderViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		074704FAE57710ACF08CD6329705CBB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6187A7AB5D51E30CF83280743CEAF2DA;
+			remoteInfo = RMStepsController;
+		};
+		C1288D5CBE76E4BCCDF6B9E92C87083D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAE5733C40B502C92E4EAE76197AB5F9;
+			remoteInfo = QULQuestionnaire;
+		};
+		EAC9024ADA23D6F79BD99BB5312F285B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6187A7AB5D51E30CF83280743CEAF2DA;
+			remoteInfo = RMStepsController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09A53798B427F73A27ED14AF0BB9264A /* QULQuestionnaireViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QULQuestionnaireViewController.h; path = QULQuestionnaire/QULQuestionnaireViewController.h; sourceTree = "<group>"; };
+		0CE860AF1BA6A95CFDF1C6B167BD854A /* Pods-MOBBING.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOBBING.release.xcconfig"; sourceTree = "<group>"; };
+		1156DEF9E05B49375AF6D0CEA21FAF89 /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+Shuffle.h"; path = "QULQuestionnaire/NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
+		1A2BF3F5BCE1DD2D610237CBB2CACD4F /* QULQuestionnaire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QULQuestionnaire.release.xcconfig; sourceTree = "<group>"; };
+		1C77B447F384D9C21567213348390382 /* QULQuestionnaireMultiSelectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QULQuestionnaireMultiSelectViewController.h; path = QULQuestionnaire/MultipleSelection/QULQuestionnaireMultiSelectViewController.h; sourceTree = "<group>"; };
+		1C8E193778017F99ACA31474D14C57E2 /* QULQuestionnaireSmileyViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QULQuestionnaireSmileyViewController.m; path = QULQuestionnaire/Smiley/QULQuestionnaireSmileyViewController.m; sourceTree = "<group>"; };
+		223609C80BB5C2AEF6D3C7F82A864E33 /* RMStepsController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMStepsController-prefix.pch"; sourceTree = "<group>"; };
+		23D969658AFC109BF442516859FD3ABE /* QULQuestionnaire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QULQuestionnaire.framework; path = QULQuestionnaire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0C64EE134F75B86DAA723994BD682E /* Pods-MOBBING-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOBBING-Info.plist"; sourceTree = "<group>"; };
+		32B4F2C64724ED747C6BA853823BD7BC /* QULQuestionnaireInstructionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QULQuestionnaireInstructionViewController.m; path = QULQuestionnaire/Instruction/QULQuestionnaireInstructionViewController.m; sourceTree = "<group>"; };
+		356F4B5D1F49BDD77B80C5DB29C82D15 /* Pods-MOBBING-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOBBING-acknowledgements.plist"; sourceTree = "<group>"; };
+		3784925DD0879FA34332B2C93A4A3E82 /* RMStepsController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RMStepsController.framework; path = RMStepsController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		415E13EF92556B96E2475E065EF9349A /* Pods-MOBBING-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MOBBING-frameworks.sh"; sourceTree = "<group>"; };
+		46DC5DEA7737C8D0DF34A5D42FF1AC6A /* RMStepsController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMStepsController.debug.xcconfig; sourceTree = "<group>"; };
+		517BCE84B1C3B501B0D98481D2350468 /* QULQuestionnaireSliderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QULQuestionnaireSliderViewController.h; path = QULQuestionnaire/Slider/QULQuestionnaireSliderViewController.h; sourceTree = "<group>"; };
+		5C71519FF25E30605D1275840C6C3ED9 /* RMStep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMStep.h; path = RMStepsController/RMStep.h; sourceTree = "<group>"; };
+		60BE5CEA070A189853C8087B88C13AA1 /* RMStepsController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMStepsController.m; path = RMStepsController/RMStepsController.m; sourceTree = "<group>"; };
+		62D0AD9299B54CAC099C8C37198A7A3D /* QULQuestionnaire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QULQuestionnaire-umbrella.h"; sourceTree = "<group>"; };
+		653676420FFE8A136CC8AE81AD8BB631 /* RMStep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMStep.m; path = RMStepsController/RMStep.m; sourceTree = "<group>"; };
+		65F8CBF25CF6E0A33818AEBC826F5FED /* RMStepsController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RMStepsController-Info.plist"; sourceTree = "<group>"; };
+		679CD449E3E5728281ABCA4CAEDE0F1E /* QULQuestionnaireSortableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QULQuestionnaireSortableViewController.m; path = QULQuestionnaire/Sortable/QULQuestionnaireSortableViewController.m; sourceTree = "<group>"; };
+		67FEE23EC8229FE703778CD4D2913BF1 /* QULQuestionnaireSingleSelectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QULQuestionnaireSingleSelectViewController.h; path = QULQuestionnaire/SingleSelection/QULQuestionnaireSingleSelectViewController.h; sourceTree = "<group>"; };
+		69DD51CF277EF9A54D41940A66792751 /* QULQuestionnaireSingleSelectViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QULQuestionnaireSingleSelectViewController.m; path = QULQuestionnaire/SingleSelection/QULQuestionnaireSingleSelectViewController.m; sourceTree = "<group>"; };
+		6D4B2ACB592F8259432663A41EE3DCFC /* RMStepsController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMStepsController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDE1350192A48901D84C3C20AE3608A /* QULQuestionnaire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QULQuestionnaire-Info.plist"; sourceTree = "<group>"; };
+		6E7EE564F64F9340B651A8D79C73DBBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7694E7A93146646365E8F9A731DC2ECD /* RMStepsController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RMStepsController.modulemap; sourceTree = "<group>"; };
+		77B8FAFECBDBCB0EA11AA464F34D4E31 /* Pods_MOBBING.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MOBBING.framework; path = "Pods-MOBBING.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0CBFB4B00EDFDC6359C552C008451E /* QULQuestionnaireSortableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QULQuestionnaireSortableViewController.h; path = QULQuestionnaire/Sortable/QULQuestionnaireSortableViewController.h; sourceTree = "<group>"; };
+		830139F773AC620EAE36B74144196998 /* QULQuestionnaire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QULQuestionnaire.modulemap; sourceTree = "<group>"; };
+		92B4D134EF5A799E0D6120588154A7FF /* QULQuestionnaire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QULQuestionnaire-prefix.pch"; sourceTree = "<group>"; };
+		95B13148253B02E6502172CAB76DB803 /* QULQuestionnaireTextViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QULQuestionnaireTextViewController.m; path = QULQuestionnaire/Text/QULQuestionnaireTextViewController.m; sourceTree = "<group>"; };
+		97354EDE9B360C38B454586CCDB2EBC2 /* Pods-MOBBING.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MOBBING.modulemap"; sourceTree = "<group>"; };
+		98B76119A2CC34388E8EAF206C65A6B8 /* RMStepsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMStepsController.h; path = RMStepsController/RMStepsController.h; sourceTree = "<group>"; };
+		99770019060148C4AA3224C6C0B2958A /* Pods-MOBBING-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MOBBING-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4FFDC9CABA95C6BFFF0006445FD4B38 /* QULQuestionnaireSliderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QULQuestionnaireSliderViewController.m; path = QULQuestionnaire/Slider/QULQuestionnaireSliderViewController.m; sourceTree = "<group>"; };
+		A71C2E4EDD70CD1A757A24AD44523F98 /* QULQuestionnaireInstructionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QULQuestionnaireInstructionViewController.h; path = QULQuestionnaire/Instruction/QULQuestionnaireInstructionViewController.h; sourceTree = "<group>"; };
+		AC2A3587DB32AB432A91F797F5F50757 /* QULQuestionnaireTextViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QULQuestionnaireTextViewController.h; path = QULQuestionnaire/Text/QULQuestionnaireTextViewController.h; sourceTree = "<group>"; };
+		AEACE27FCC1126E90D94F5F33AE2667A /* QULQuestionnaire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QULQuestionnaire-dummy.m"; sourceTree = "<group>"; };
+		BA66D06284650570E14BCA1E0AEC79B8 /* RMStepsController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMStepsController.release.xcconfig; sourceTree = "<group>"; };
+		BAF203BC6D38D49FF4D053BEA28088E0 /* RMStepsController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMStepsController-umbrella.h"; sourceTree = "<group>"; };
+		C49782F4BD6D5094F3ED4F5652962C2D /* QULQuestionnaireMultiSelectViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QULQuestionnaireMultiSelectViewController.m; path = QULQuestionnaire/MultipleSelection/QULQuestionnaireMultiSelectViewController.m; sourceTree = "<group>"; };
+		C55D71CC1F711E5FCA867F123E890A6D /* QULQuestionnaire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QULQuestionnaire.debug.xcconfig; sourceTree = "<group>"; };
+		D42A5FBEC0DF8C6734425C45E47B9454 /* QULQuestionnaireImages.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = QULQuestionnaireImages.xcassets; path = QULQuestionnaire/QULQuestionnaireImages.xcassets; sourceTree = "<group>"; };
+		D4FAC3F8223A82648AE806D2F5B0050F /* Pods-MOBBING-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MOBBING-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D57DF9EF299AE83AFD4E701F4C5E356A /* Pods-MOBBING.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOBBING.debug.xcconfig"; sourceTree = "<group>"; };
+		D6BE74C9068E030A6E233652CA98A774 /* RMStepsBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMStepsBar.h; path = RMStepsController/RMStepsBar.h; sourceTree = "<group>"; };
+		D83A0E7CA1E9DA0ED0D1F348DD734789 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D9549EDD5BC042C248B3F57BB10C175D /* QULQuestionnaireViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QULQuestionnaireViewController.m; path = QULQuestionnaire/QULQuestionnaireViewController.m; sourceTree = "<group>"; };
+		E36A6387D020D9C7173B73ECE9DBEAC5 /* RMStepsBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMStepsBar.m; path = RMStepsController/RMStepsBar.m; sourceTree = "<group>"; };
+		EB61DD240FA82E7C5AD73923B3B53F3E /* QULQuestionnaireSmileyViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QULQuestionnaireSmileyViewController.h; path = QULQuestionnaire/Smiley/QULQuestionnaireSmileyViewController.h; sourceTree = "<group>"; };
+		ECBF2D7302879E1386B1A9577CF6F534 /* RMStepsController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMStepsController-dummy.m"; sourceTree = "<group>"; };
+		ED0370485FB15C94AAFABC3E21652189 /* Pods-MOBBING-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MOBBING-dummy.m"; sourceTree = "<group>"; };
+		FCD2D20FB5DFDC47F840112560D4360D /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Shuffle.m"; path = "QULQuestionnaire/NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0015B2F0E189A2F85FC14FEAF44DB4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FC7BE9336B892184C44F72C3DEF02A /* Foundation.framework in Frameworks */,
+				BA17A62256C796B6E7DBFEB7F8FB0C05 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F8E45A66AA9A20B83126FEB0BBD92A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A67CEBF5E3C5012C65D9CE32E96D1C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE04AB1B0F93DD47E2B3565222BDD6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DF9788CAD7A25BC19C4C9F0659DC33 /* Foundation.framework in Frameworks */,
+				85503641D7378BDBB2572B089EF55DD8 /* RMStepsController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064EFC22B747E9E3F0797E7CAD8BE094 /* RMStepsController */ = {
+			isa = PBXGroup;
+			children = (
+				5C71519FF25E30605D1275840C6C3ED9 /* RMStep.h */,
+				653676420FFE8A136CC8AE81AD8BB631 /* RMStep.m */,
+				D6BE74C9068E030A6E233652CA98A774 /* RMStepsBar.h */,
+				E36A6387D020D9C7173B73ECE9DBEAC5 /* RMStepsBar.m */,
+				98B76119A2CC34388E8EAF206C65A6B8 /* RMStepsController.h */,
+				60BE5CEA070A189853C8087B88C13AA1 /* RMStepsController.m */,
+				91DCCA229660D9E9DC64BFE5A4B65A11 /* Support Files */,
+			);
+			name = RMStepsController;
+			path = RMStepsController;
+			sourceTree = "<group>";
+		};
+		06E04641180E136C429F285D023CF0BD /* Pods-MOBBING */ = {
+			isa = PBXGroup;
+			children = (
+				97354EDE9B360C38B454586CCDB2EBC2 /* Pods-MOBBING.modulemap */,
+				D4FAC3F8223A82648AE806D2F5B0050F /* Pods-MOBBING-acknowledgements.markdown */,
+				356F4B5D1F49BDD77B80C5DB29C82D15 /* Pods-MOBBING-acknowledgements.plist */,
+				ED0370485FB15C94AAFABC3E21652189 /* Pods-MOBBING-dummy.m */,
+				415E13EF92556B96E2475E065EF9349A /* Pods-MOBBING-frameworks.sh */,
+				2C0C64EE134F75B86DAA723994BD682E /* Pods-MOBBING-Info.plist */,
+				99770019060148C4AA3224C6C0B2958A /* Pods-MOBBING-umbrella.h */,
+				D57DF9EF299AE83AFD4E701F4C5E356A /* Pods-MOBBING.debug.xcconfig */,
+				0CE860AF1BA6A95CFDF1C6B167BD854A /* Pods-MOBBING.release.xcconfig */,
+			);
+			name = "Pods-MOBBING";
+			path = "Target Support Files/Pods-MOBBING";
+			sourceTree = "<group>";
+		};
+		0DF55E36D6CFDE58726E513B972EE74F /* QULQuestionnaire */ = {
+			isa = PBXGroup;
+			children = (
+				1156DEF9E05B49375AF6D0CEA21FAF89 /* NSMutableArray+Shuffle.h */,
+				FCD2D20FB5DFDC47F840112560D4360D /* NSMutableArray+Shuffle.m */,
+				A71C2E4EDD70CD1A757A24AD44523F98 /* QULQuestionnaireInstructionViewController.h */,
+				32B4F2C64724ED747C6BA853823BD7BC /* QULQuestionnaireInstructionViewController.m */,
+				1C77B447F384D9C21567213348390382 /* QULQuestionnaireMultiSelectViewController.h */,
+				C49782F4BD6D5094F3ED4F5652962C2D /* QULQuestionnaireMultiSelectViewController.m */,
+				67FEE23EC8229FE703778CD4D2913BF1 /* QULQuestionnaireSingleSelectViewController.h */,
+				69DD51CF277EF9A54D41940A66792751 /* QULQuestionnaireSingleSelectViewController.m */,
+				517BCE84B1C3B501B0D98481D2350468 /* QULQuestionnaireSliderViewController.h */,
+				A4FFDC9CABA95C6BFFF0006445FD4B38 /* QULQuestionnaireSliderViewController.m */,
+				EB61DD240FA82E7C5AD73923B3B53F3E /* QULQuestionnaireSmileyViewController.h */,
+				1C8E193778017F99ACA31474D14C57E2 /* QULQuestionnaireSmileyViewController.m */,
+				7F0CBFB4B00EDFDC6359C552C008451E /* QULQuestionnaireSortableViewController.h */,
+				679CD449E3E5728281ABCA4CAEDE0F1E /* QULQuestionnaireSortableViewController.m */,
+				AC2A3587DB32AB432A91F797F5F50757 /* QULQuestionnaireTextViewController.h */,
+				95B13148253B02E6502172CAB76DB803 /* QULQuestionnaireTextViewController.m */,
+				09A53798B427F73A27ED14AF0BB9264A /* QULQuestionnaireViewController.h */,
+				D9549EDD5BC042C248B3F57BB10C175D /* QULQuestionnaireViewController.m */,
+				A36F61E8A8C35EB89BFE576E247A2B4E /* Resources */,
+				1392517C34C6F34B2FE43D760FCFF7F4 /* Support Files */,
+			);
+			name = QULQuestionnaire;
+			path = QULQuestionnaire;
+			sourceTree = "<group>";
+		};
+		1253F70FA1CF348B58D0943BEFCDE1E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D4B2ACB592F8259432663A41EE3DCFC /* RMStepsController.framework */,
+				F9CDB69902CCEE0E27E2694D23C92F76 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12D83416912D0F0D069F5CE9ACD5E7E0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06E04641180E136C429F285D023CF0BD /* Pods-MOBBING */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1392517C34C6F34B2FE43D760FCFF7F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				830139F773AC620EAE36B74144196998 /* QULQuestionnaire.modulemap */,
+				AEACE27FCC1126E90D94F5F33AE2667A /* QULQuestionnaire-dummy.m */,
+				6DDE1350192A48901D84C3C20AE3608A /* QULQuestionnaire-Info.plist */,
+				92B4D134EF5A799E0D6120588154A7FF /* QULQuestionnaire-prefix.pch */,
+				62D0AD9299B54CAC099C8C37198A7A3D /* QULQuestionnaire-umbrella.h */,
+				C55D71CC1F711E5FCA867F123E890A6D /* QULQuestionnaire.debug.xcconfig */,
+				1A2BF3F5BCE1DD2D610237CBB2CACD4F /* QULQuestionnaire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QULQuestionnaire";
+			sourceTree = "<group>";
+		};
+		505655B5D531ED4009823BB22C7430E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DF55E36D6CFDE58726E513B972EE74F /* QULQuestionnaire */,
+				064EFC22B747E9E3F0797E7CAD8BE094 /* RMStepsController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D3548385162B7A4EDC8013859BF1745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77B8FAFECBDBCB0EA11AA464F34D4E31 /* Pods_MOBBING.framework */,
+				23D969658AFC109BF442516859FD3ABE /* QULQuestionnaire.framework */,
+				3784925DD0879FA34332B2C93A4A3E82 /* RMStepsController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91DCCA229660D9E9DC64BFE5A4B65A11 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7694E7A93146646365E8F9A731DC2ECD /* RMStepsController.modulemap */,
+				ECBF2D7302879E1386B1A9577CF6F534 /* RMStepsController-dummy.m */,
+				65F8CBF25CF6E0A33818AEBC826F5FED /* RMStepsController-Info.plist */,
+				223609C80BB5C2AEF6D3C7F82A864E33 /* RMStepsController-prefix.pch */,
+				BAF203BC6D38D49FF4D053BEA28088E0 /* RMStepsController-umbrella.h */,
+				46DC5DEA7737C8D0DF34A5D42FF1AC6A /* RMStepsController.debug.xcconfig */,
+				BA66D06284650570E14BCA1E0AEC79B8 /* RMStepsController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RMStepsController";
+			sourceTree = "<group>";
+		};
+		A36F61E8A8C35EB89BFE576E247A2B4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D42A5FBEC0DF8C6734425C45E47B9454 /* QULQuestionnaireImages.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1253F70FA1CF348B58D0943BEFCDE1E4 /* Frameworks */,
+				505655B5D531ED4009823BB22C7430E4 /* Pods */,
+				5D3548385162B7A4EDC8013859BF1745 /* Products */,
+				12D83416912D0F0D069F5CE9ACD5E7E0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F9CDB69902CCEE0E27E2694D23C92F76 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7EE564F64F9340B651A8D79C73DBBF /* Foundation.framework */,
+				D83A0E7CA1E9DA0ED0D1F348DD734789 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8E011B8EC102139C48261525E6871C28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660FCC24690739D6751D714D13F8D16A /* Pods-MOBBING-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4ED84ABE4BB7F06D5F184266673778 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8793EE3EF5D0ABAA0737FC3B9EC1C2 /* NSMutableArray+Shuffle.h in Headers */,
+				3D8981A06DD0BDE122D7502AA1ADC03F /* QULQuestionnaire-umbrella.h in Headers */,
+				D7E5438F3046C849067F2C2AFBEBD11F /* QULQuestionnaireInstructionViewController.h in Headers */,
+				0A9650FC06D4BA3DD745CFA106496C93 /* QULQuestionnaireMultiSelectViewController.h in Headers */,
+				3E9DEFB798D01D3B0F9066FAF3D3381D /* QULQuestionnaireSingleSelectViewController.h in Headers */,
+				CD87FC03C4C4B37EB3952C96C47FB842 /* QULQuestionnaireSliderViewController.h in Headers */,
+				8F4981AED0931A86CCC0D18836414B08 /* QULQuestionnaireSmileyViewController.h in Headers */,
+				C8A9EFECC4D88D4951840AD056F90322 /* QULQuestionnaireSortableViewController.h in Headers */,
+				9A411D65FC8E6435BD325522D0A4852C /* QULQuestionnaireTextViewController.h in Headers */,
+				27CD969BDD36CD45B4349F014E8D9B32 /* QULQuestionnaireViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F7B67F14C6BDCABF35DDE9CFE3D48A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49A6F09301F9BADACE59E50020C175A /* RMStep.h in Headers */,
+				60C304DDFA1825FB6D389D68B9B5A50B /* RMStepsBar.h in Headers */,
+				9F5D9CFC8FC3ED263049561BE612E76F /* RMStepsController-umbrella.h in Headers */,
+				5C25D7266E3AD269FD1561BD3C71E99C /* RMStepsController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6187A7AB5D51E30CF83280743CEAF2DA /* RMStepsController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7323FD279120C6F816CE0A3FEBE1B5 /* Build configuration list for PBXNativeTarget "RMStepsController" */;
+			buildPhases = (
+				E2F7B67F14C6BDCABF35DDE9CFE3D48A /* Headers */,
+				EF520F614C5FACD72CF8E806C3796BB4 /* Sources */,
+				0015B2F0E189A2F85FC14FEAF44DB4CC /* Frameworks */,
+				C8135D43F0148409BE4CF3EBAFB679D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMStepsController;
+			productName = RMStepsController;
+			productReference = 3784925DD0879FA34332B2C93A4A3E82 /* RMStepsController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D8718AE0261C08A1B9ED49BA17A7D29 /* Pods-MOBBING */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7949915644BFB709CD3BEA31897A8D99 /* Build configuration list for PBXNativeTarget "Pods-MOBBING" */;
+			buildPhases = (
+				8E011B8EC102139C48261525E6871C28 /* Headers */,
+				148B48327C31B8605D084EC8FE4E5CB2 /* Sources */,
+				6F8E45A66AA9A20B83126FEB0BBD92A0 /* Frameworks */,
+				2F4B78FA8D44B8BED06C8665C5E57F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12D0ABB8266AF29D4D80D4F8DD91EB78 /* PBXTargetDependency */,
+				B522A1AC1B3BACD5A22CD0F727532C37 /* PBXTargetDependency */,
+			);
+			name = "Pods-MOBBING";
+			productName = "Pods-MOBBING";
+			productReference = 77B8FAFECBDBCB0EA11AA464F34D4E31 /* Pods_MOBBING.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAE5733C40B502C92E4EAE76197AB5F9 /* QULQuestionnaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C4543F6787980275C38FB6455E1D60 /* Build configuration list for PBXNativeTarget "QULQuestionnaire" */;
+			buildPhases = (
+				DB4ED84ABE4BB7F06D5F184266673778 /* Headers */,
+				BCB3CD29346A1B416747CF288173A6F4 /* Sources */,
+				BE04AB1B0F93DD47E2B3565222BDD6C3 /* Frameworks */,
+				E80D5A6D68A5B6ABB55927C3A77CD445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C539AA69A36886FBBB15DE945FBC3857 /* PBXTargetDependency */,
+			);
+			name = QULQuestionnaire;
+			productName = QULQuestionnaire;
+			productReference = 23D969658AFC109BF442516859FD3ABE /* QULQuestionnaire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5D3548385162B7A4EDC8013859BF1745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D8718AE0261C08A1B9ED49BA17A7D29 /* Pods-MOBBING */,
+				EAE5733C40B502C92E4EAE76197AB5F9 /* QULQuestionnaire */,
+				6187A7AB5D51E30CF83280743CEAF2DA /* RMStepsController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F4B78FA8D44B8BED06C8665C5E57F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8135D43F0148409BE4CF3EBAFB679D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80D5A6D68A5B6ABB55927C3A77CD445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8332D7EB0247E06FF716EC72DC7C4E3 /* QULQuestionnaireImages.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		148B48327C31B8605D084EC8FE4E5CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF659BD3B106A71DCC8BE520604367B /* Pods-MOBBING-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB3CD29346A1B416747CF288173A6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B357A28571B76B5CB4B5F9B1F5D9C6 /* NSMutableArray+Shuffle.m in Sources */,
+				D072AD95153CAFD414A4D001A3A4FE26 /* QULQuestionnaire-dummy.m in Sources */,
+				36D3FFD575017F42E06A99E21C3A3D11 /* QULQuestionnaireInstructionViewController.m in Sources */,
+				D6C541C129EB661DABD5ECED3223D205 /* QULQuestionnaireMultiSelectViewController.m in Sources */,
+				2365992FE32BD20F7C98A934C0AED4CF /* QULQuestionnaireSingleSelectViewController.m in Sources */,
+				FCCC0652FD7A8A8AFC6D549868E5A513 /* QULQuestionnaireSliderViewController.m in Sources */,
+				1DD16373D8F7B012E4CA641242B5BFFB /* QULQuestionnaireSmileyViewController.m in Sources */,
+				08C61802BC5780D69F566310E4F2F983 /* QULQuestionnaireSortableViewController.m in Sources */,
+				290715893FEEC6EA73E884E07D5039C7 /* QULQuestionnaireTextViewController.m in Sources */,
+				C7BAC126C56A2A841C7F3AF5E32F3CBF /* QULQuestionnaireViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF520F614C5FACD72CF8E806C3796BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF18126AE1B3B242817B604DE7CCBD14 /* RMStep.m in Sources */,
+				AFBA9605931DAE33BE0C15F4D40EB293 /* RMStepsBar.m in Sources */,
+				02E0C16FE9F6F6A41B8A316697EE4D28 /* RMStepsController-dummy.m in Sources */,
+				6A5767D33E8B22F48BC233DF4F618191 /* RMStepsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12D0ABB8266AF29D4D80D4F8DD91EB78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QULQuestionnaire;
+			target = EAE5733C40B502C92E4EAE76197AB5F9 /* QULQuestionnaire */;
+			targetProxy = C1288D5CBE76E4BCCDF6B9E92C87083D /* PBXContainerItemProxy */;
+		};
+		B522A1AC1B3BACD5A22CD0F727532C37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMStepsController;
+			target = 6187A7AB5D51E30CF83280743CEAF2DA /* RMStepsController */;
+			targetProxy = EAC9024ADA23D6F79BD99BB5312F285B /* PBXContainerItemProxy */;
+		};
+		C539AA69A36886FBBB15DE945FBC3857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMStepsController;
+			target = 6187A7AB5D51E30CF83280743CEAF2DA /* RMStepsController */;
+			targetProxy = 074704FAE57710ACF08CD6329705CBB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		231528393B7084E13F97FF9EF804A1C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		31DFE552B6A1893A5BA06342E65C7A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA66D06284650570E14BCA1E0AEC79B8 /* RMStepsController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RMStepsController/RMStepsController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMStepsController/RMStepsController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RMStepsController/RMStepsController.modulemap";
+				PRODUCT_MODULE_NAME = RMStepsController;
+				PRODUCT_NAME = RMStepsController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		353D2EB3545D27343B51B709D9C0420B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4B4FD3D47299C4204A938E91ABFD8948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55D71CC1F711E5FCA867F123E890A6D /* QULQuestionnaire.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QULQuestionnaire/QULQuestionnaire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QULQuestionnaire/QULQuestionnaire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QULQuestionnaire/QULQuestionnaire.modulemap";
+				PRODUCT_MODULE_NAME = QULQuestionnaire;
+				PRODUCT_NAME = QULQuestionnaire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50B07C1331178FE14140DDF8FC6669D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46DC5DEA7737C8D0DF34A5D42FF1AC6A /* RMStepsController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RMStepsController/RMStepsController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMStepsController/RMStepsController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RMStepsController/RMStepsController.modulemap";
+				PRODUCT_MODULE_NAME = RMStepsController;
+				PRODUCT_NAME = RMStepsController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74C616F802F253D65B790D562A8DCCD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57DF9EF299AE83AFD4E701F4C5E356A /* Pods-MOBBING.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MOBBING/Pods-MOBBING-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MOBBING/Pods-MOBBING.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		853CB6BC3E29CAE40411313456A828AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE860AF1BA6A95CFDF1C6B167BD854A /* Pods-MOBBING.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MOBBING/Pods-MOBBING-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MOBBING/Pods-MOBBING.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1AE2E49A283185E93F5CC90BB5C1BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2BF3F5BCE1DD2D610237CBB2CACD4F /* QULQuestionnaire.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QULQuestionnaire/QULQuestionnaire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QULQuestionnaire/QULQuestionnaire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QULQuestionnaire/QULQuestionnaire.modulemap";
+				PRODUCT_MODULE_NAME = QULQuestionnaire;
+				PRODUCT_NAME = QULQuestionnaire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231528393B7084E13F97FF9EF804A1C0 /* Debug */,
+				353D2EB3545D27343B51B709D9C0420B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7949915644BFB709CD3BEA31897A8D99 /* Build configuration list for PBXNativeTarget "Pods-MOBBING" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C616F802F253D65B790D562A8DCCD1 /* Debug */,
+				853CB6BC3E29CAE40411313456A828AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C4543F6787980275C38FB6455E1D60 /* Build configuration list for PBXNativeTarget "QULQuestionnaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4FD3D47299C4204A938E91ABFD8948 /* Debug */,
+				B1AE2E49A283185E93F5CC90BB5C1BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7323FD279120C6F816CE0A3FEBE1B5 /* Build configuration list for PBXNativeTarget "RMStepsController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B07C1331178FE14140DDF8FC6669D7 /* Debug */,
+				31DFE552B6A1893A5BA06342E65C7A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

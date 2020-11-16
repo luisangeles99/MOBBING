@@ -1,0 +1,107 @@
+[
+    {
+    "key": "radio1",
+    "type": "radio",
+    "title": "Radio vertical",
+    "orientation": 1,
+    "question": "Ejemplo de Pregunta 1",
+    "instruction": "Uno no estoy de acuerdo y 5 estoy totalmente de acuerdo",
+    "required": true,
+    "randomized": false,
+    "other": false,
+    "options": [
+                {
+                "key": "r1",
+                "value": "1"
+                },
+                {
+                "key": "r2",
+                "value": "2"
+                },
+                {
+                "key": "r3",
+                "value": "3",
+                "default": true
+                },
+                {
+                "key": "r4",
+                "value": "4"
+                },
+                {
+                "key": "r5",
+                "value": "5"
+                }
+                ]
+    },
+    
+    {
+    "key": "radio2",
+    "type": "radio",
+    "title": "Radio horizontal",
+    "orientation": 0,
+    "question": "Ejemplo de pregunta 2",
+    "instruction": "Uno no estoy de acuerdo y 5 estoy totalmente de acuerdo",
+    "required": true,
+    "randomized": false,
+    "minLabel": "Min.",
+    "maxLabel": "Max.",
+    "decreaseIncreaseAccessory": true,
+    "options": [
+                {
+                "key": "rr1",
+                "value": "1"
+                },
+                {
+                "key": "rr2",
+                "value": "2"
+                },
+                {
+                "key": "rr3",
+                "value": "3"
+                },
+                {
+                "key": "rr4",
+                "value": "4"
+                },
+                {
+                "key": "rr5",
+                "value": "5"
+                }
+                ]
+    },
+    {
+    "key": "radio2",
+    "type": "radio",
+    "title": "Radio horizontal",
+    "orientation": 0,
+    "question": "Ejemplo de pregunta 3",
+    "instruction": "Uno no es de acuerdo y 5 estoy totalmente de acuerdo",
+    "required": true,
+    "randomized": false,
+    "minLabel": "Min.",
+    "maxLabel": "Max.",
+    "decreaseIncreaseAccessory": true,
+    "options": [
+                {
+                "key": "rr1",
+                "value": "1"
+                },
+                {
+                "key": "rr2",
+                "value": "2"
+                },
+                {
+                "key": "rr3",
+                "value": "3"
+                },
+                {
+                "key": "rr4",
+                "value": "4"
+                },
+                {
+                "key": "rr5",
+                "value": "5"
+                }
+                ]
+    }
+]

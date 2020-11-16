@@ -1,0 +1,6 @@
+framework module QULQuestionnaire {
+  umbrella header "QULQuestionnaire-umbrella.h"
+
+  export *
+  module * { export * }
+}
