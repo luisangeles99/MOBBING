@@ -30,4 +30,6 @@ typedef enum : NSUInteger {
 
 @property (nonatomic, strong) NSDictionary *questionnaireData;
 
+@property NSString *value;
+
 @end

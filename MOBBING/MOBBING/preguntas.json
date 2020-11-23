@@ -1,105 +1,447 @@
 [
     {
-    "key": "radio1",
+    "key": "genero",
     "type": "radio",
-    "title": "Radio vertical",
+    "title": "Información Básica",
     "orientation": 1,
-    "question": "Ejemplo de Pregunta 1",
-    "instruction": "Uno no estoy de acuerdo y 5 estoy totalmente de acuerdo",
+    "question": "Género",
+    "instruction": "Contesta las siguientes preguntas",
     "required": true,
     "randomized": false,
     "other": false,
     "options": [
                 {
-                "key": "r1",
-                "value": "1"
+                "key": "Masculino",
+                "value": "Masculino"
                 },
                 {
                 "key": "r2",
-                "value": "2"
-                },
-                {
-                "key": "r3",
-                "value": "3",
+                "value": "Femenino",
                 "default": true
                 },
                 {
-                "key": "r4",
+                "key": "r3",
+                "value": "Otro / prefiero no contestar"
+                }
+    ]
+    },
+    {
+    "key": "experiencia",
+    "type": "radio",
+    "title": "Información Básica",
+    "orientation": 1,
+    "question": "Experiencia",
+    "instruction": "Contesta de acuerdo a tu experiencia laboral",
+    "required": true,
+    "randomized": false,
+    "other": false,
+    "options": [
+                {
+                "key": "años 0",
+                "value": "Menos de un año"
+                },
+                {
+                "key": "años 5",
+                "value": "Entre uno y cinco años(inclusive)",
+                "default": true
+                },
+                {
+                "key": "años 10",
+                "value": "Entre seis y diez años(inclusive)"
+                },
+                {
+                    "key": "años 15",
+                    "value": "Entre diez y quince años(inclusive)"
+                },
+                {
+                    "key": "años 20",
+                    "value": "Más de 15 años"
+                }
+    ]
+    },
+    {
+    "key": "sector",
+    "type": "radio",
+    "title": "Información Básica",
+    "orientation": 1,
+    "question": "Sector",
+    "instruction": "Indica el sector en que el desarrollas tus actividades",
+    "required": true,
+    "randomized": false,
+    "other": false,
+    "options": [
+                {
+                "key": "comercial",
+                "value": "Comercial"
+                },
+                {
+                "key": "industrial",
+                "value": "Industrial/Manufactura"
+                },
+                {
+                "key": "mantenimiento",
+                "value": "Servicios de mantenimiento"
+                },
+                {
+                "key": "publico",
+                "value": "Sector público"
+                },
+                {
+                "key": "admin",
+                "value": "Administrativo"
+                },
+                {
+                "key": "otro",
+                "value": "Otro"
+                },
+    ]
+    },
+    {
+    "key": "acoso1",
+    "type": "radio",
+    "title": "Mobbing-Acoso laboral",
+    "orientation": 0,
+    "question": "Recibe constantemente críticas de su trabajo y/o acciones que considera que dañan a su persona.",
+    "instruction": "1 no estoy de acuerdo - 5 estoy totalmente de acuerdo",
+    "required": true,
+    "randomized": false,
+    "minLabel": "Desacuerdo",
+    "maxLabel": "De acuerdo",
+    "decreaseIncreaseAccessory": true,
+    "options": [
+                {
+                "key": "1",
+                "value": "1"
+                },
+                {
+                "key": "2",
+                "value": "2"
+                },
+                {
+                "key": "3",
+                "value": "3"
+                },
+                {
+                "key": "4",
                 "value": "4"
                 },
                 {
-                "key": "r5",
+                "key": "5",
                 "value": "5"
                 }
                 ]
     },
-    
     {
-    "key": "radio2",
+    "key": "acoso2",
     "type": "radio",
-    "title": "Radio horizontal",
+    "title": "Mobbing-Acoso laboral",
     "orientation": 0,
-    "question": "Ejemplo de pregunta 2",
-    "instruction": "Uno no estoy de acuerdo y 5 estoy totalmente de acuerdo",
+    "question": "Sus compañeros de equipo lo han rechazado y excluido de las actividades y/o tareas, lo que  ha dañado su desempeño dentro de la organización.  ",
+    "instruction": "1 no estoy de acuerdo - 5 estoy totalmente de acuerdo",
     "required": true,
     "randomized": false,
-    "minLabel": "Min.",
-    "maxLabel": "Max.",
+    "minLabel": "Desacuerdo",
+    "maxLabel": "De acuerdo",
     "decreaseIncreaseAccessory": true,
     "options": [
                 {
-                "key": "rr1",
+                "key": "1",
                 "value": "1"
                 },
                 {
-                "key": "rr2",
+                "key": "2",
                 "value": "2"
                 },
                 {
-                "key": "rr3",
+                "key": "3",
                 "value": "3"
                 },
                 {
-                "key": "rr4",
+                "key": "4",
                 "value": "4"
                 },
                 {
-                "key": "rr5",
+                "key": "5",
                 "value": "5"
                 }
                 ]
     },
     {
-    "key": "radio2",
+    "key": "acoso3",
     "type": "radio",
-    "title": "Radio horizontal",
+    "title": "Mobbing-Acoso laboral",
     "orientation": 0,
-    "question": "Ejemplo de pregunta 3",
-    "instruction": "Uno no es de acuerdo y 5 estoy totalmente de acuerdo",
+    "question": "Se le  asignan proyectos y/o actividades exigiendo alta presión y un tiempo límite que no va de acuerdo a la complicidad del trabajo. ",
+    "instruction": "1 no estoy de acuerdo - 5 estoy totalmente de acuerdo",
     "required": true,
     "randomized": false,
-    "minLabel": "Min.",
-    "maxLabel": "Max.",
+    "minLabel": "Desacuerdo",
+    "maxLabel": "De acuerdo",
     "decreaseIncreaseAccessory": true,
     "options": [
                 {
-                "key": "rr1",
+                "key": "1",
                 "value": "1"
                 },
                 {
-                "key": "rr2",
+                "key": "2",
                 "value": "2"
                 },
                 {
-                "key": "rr3",
+                "key": "3",
                 "value": "3"
                 },
                 {
-                "key": "rr4",
+                "key": "4",
                 "value": "4"
                 },
                 {
-                "key": "rr5",
+                "key": "5",
+                "value": "5"
+                }
+                ]
+    },
+    {
+    "key": "acoso4",
+    "type": "radio",
+    "title": "Mobbing-Acoso laboral",
+    "orientation": 0,
+    "question": "Alguno de sus compañeros ha invadido su privacidad tanto social como física. ",
+    "instruction": "1 no estoy de acuerdo - 5 estoy totalmente de acuerdo",
+    "required": true,
+    "randomized": false,
+    "minLabel": "Desacuerdo",
+    "maxLabel": "De acuerdo",
+    "decreaseIncreaseAccessory": true,
+    "options": [
+                {
+                "key": "1",
+                "value": "1"
+                },
+                {
+                "key": "2",
+                "value": "2"
+                },
+                {
+                "key": "3",
+                "value": "3"
+                },
+                {
+                "key": "4",
+                "value": "4"
+                },
+                {
+                "key": "5",
+                "value": "5"
+                }
+                ]
+    },
+    {
+    "key": "acoso5",
+    "type": "radio",
+    "title": "Mobbing-Acoso laboral",
+    "orientation": 0,
+    "question": "Ha sido víctima de insultos, apodos, gritos, golpes o empujones por parte de alguno de sus compañeros de trabajo.",
+    "instruction": "1 no estoy de acuerdo - 5 estoy totalmente de acuerdo",
+    "required": true,
+    "randomized": false,
+    "minLabel": "Desacuerdo",
+    "maxLabel": "De acuerdo",
+    "decreaseIncreaseAccessory": true,
+    "options": [
+                {
+                "key": "1",
+                "value": "1"
+                },
+                {
+                "key": "2",
+                "value": "2"
+                },
+                {
+                "key": "3",
+                "value": "3"
+                },
+                {
+                "key": "4",
+                "value": "4"
+                },
+                {
+                "key": "5",
+                "value": "5"
+                }
+                ]
+    },
+    {
+    "key": "acoso6",
+    "type": "radio",
+    "title": "Mobbing-Acoso laboral",
+    "orientation": 0,
+    "question": "Esta situación ha tenido repercusiones psicológicas, físicas y/o sociales. ",
+    "instruction": "1 no estoy de acuerdo - 5 estoy totalmente de acuerdo",
+    "required": true,
+    "randomized": false,
+    "minLabel": "Desacuerdo",
+    "maxLabel": "De acuerdo",
+    "decreaseIncreaseAccessory": true,
+    "options": [
+                {
+                "key": "1",
+                "value": "1"
+                },
+                {
+                "key": "2",
+                "value": "2"
+                },
+                {
+                "key": "3",
+                "value": "3"
+                },
+                {
+                "key": "4",
+                "value": "4"
+                },
+                {
+                "key": "5",
+                "value": "5"
+                }
+                ]
+    },
+    {
+    "key": "acoso7",
+    "type": "radio",
+    "title": "Mobbing-Acoso laboral",
+    "orientation": 0,
+    "question": "Considera que ha aumentado su nivel de estrés, ansiedad e inseguridad. ",
+    "instruction": "1 no estoy de acuerdo - 5 estoy totalmente de acuerdo",
+    "required": true,
+    "randomized": false,
+    "minLabel": "Desacuerdo",
+    "maxLabel": "De acuerdo",
+    "decreaseIncreaseAccessory": true,
+    "options": [
+                {
+                "key": "1",
+                "value": "1"
+                },
+                {
+                "key": "2",
+                "value": "2"
+                },
+                {
+                "key": "3",
+                "value": "3"
+                },
+                {
+                "key": "4",
+                "value": "4"
+                },
+                {
+                "key": "5",
+                "value": "5"
+                }
+                ]
+    },
+    {
+    "key": "acoso8",
+    "type": "radio",
+    "title": "Mobbing-Acoso laboral",
+    "orientation": 0,
+    "question": "Considera que esta situación ha dañado su rendimiento y desempeño. ",
+    "instruction": "1 no estoy de acuerdo - 5 estoy totalmente de acuerdo",
+    "required": true,
+    "randomized": false,
+    "minLabel": "Desacuerdo",
+    "maxLabel": "De acuerdo",
+    "decreaseIncreaseAccessory": true,
+    "options": [
+                {
+                "key": "1",
+                "value": "1"
+                },
+                {
+                "key": "2",
+                "value": "2"
+                },
+                {
+                "key": "3",
+                "value": "3"
+                },
+                {
+                "key": "4",
+                "value": "4"
+                },
+                {
+                "key": "5",
+                "value": "5"
+                }
+                ]
+    },
+    {
+    "key": "acoso9",
+    "type": "radio",
+    "title": "Mobbing-Acoso laboral",
+    "orientation": 0,
+    "question": "Ante la situación ha considerado darse de baja o salir de la organización.",
+    "instruction": "1 no estoy de acuerdo - 5 estoy totalmente de acuerdo",
+    "required": true,
+    "randomized": false,
+    "minLabel": "Desacuerdo",
+    "maxLabel": "De acuerdo",
+    "decreaseIncreaseAccessory": true,
+    "options": [
+                {
+                "key": "1",
+                "value": "1"
+                },
+                {
+                "key": "2",
+                "value": "2"
+                },
+                {
+                "key": "3",
+                "value": "3"
+                },
+                {
+                "key": "4",
+                "value": "4"
+                },
+                {
+                "key": "5",
+                "value": "5"
+                }
+                ]
+    },
+    {
+    "key": "acoso10",
+    "type": "radio",
+    "title": "Mobbing-Acoso laboral",
+    "orientation": 0,
+    "question": "Considera que la persona o personas han dañado su integridad, dignidad y valorización. ",
+    "instruction": "1 no estoy de acuerdo - 5 estoy totalmente de acuerdo",
+    "required": true,
+    "randomized": false,
+    "minLabel": "Desacuerdo",
+    "maxLabel": "De acuerdo",
+    "decreaseIncreaseAccessory": true,
+    "options": [
+                {
+                "key": "1",
+                "value": "1"
+                },
+                {
+                "key": "2",
+                "value": "2"
+                },
+                {
+                "key": "3",
+                "value": "3"
+                },
+                {
+                "key": "4",
+                "value": "4"
+                },
+                {
+                "key": "5",
                 "value": "5"
                 }
                 ]

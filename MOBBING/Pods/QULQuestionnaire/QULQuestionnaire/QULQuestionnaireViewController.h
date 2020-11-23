@@ -26,4 +26,6 @@
 
 - (instancetype)initWithQuestionnaireData:(NSArray *)questionnaireData;
 
+@property int cant;
+
 @end

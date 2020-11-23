@@ -13,6 +13,8 @@ class resultadosAnterioresViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "Resultados anteriores"
+        
         // Do any additional setup after loading the view.
     }
     

@@ -12,7 +12,6 @@ import QULQuestionnaire
 class realizarCuestionarioViewController: UIViewController {
 
     
-
     var data : Data!
     var preguntas : NSArray!
     
@@ -44,17 +43,12 @@ class realizarCuestionarioViewController: UIViewController {
                   let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
                   preguntas = jsonResult as? NSArray
                   print(preguntas!)
-                  mostrarCuestionario()
               } catch {
                    print(error)
               }
         }
     }
-    
-    func mostrarCuestionario(){
-        
-        
-    }
+  
     
     
 }

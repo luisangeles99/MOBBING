@@ -11,6 +11,7 @@
 @interface realizarQul : UIViewController
 
 @property (strong, nonatomic) NSArray* arr;
+@property (strong, nonatomic) NSDictionary* respuestas;
 
 @end
 
