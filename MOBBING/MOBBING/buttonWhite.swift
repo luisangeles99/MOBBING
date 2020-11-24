@@ -23,7 +23,7 @@ class buttonWhite: UIButton {
     func setupButton(){
         setTitleColor(.black, for: .normal)
         titleLabel?.font = UIFont(name: "AvenirNext-DemiBold", size: 18)
-        backgroundColor = UIColor.lightGray.withAlphaComponent(0.5)
+        backgroundColor = UIColor.white.withAlphaComponent(0.5)
         layer.cornerRadius = 20
         layer.borderWidth = 3.0
         layer.borderColor = UIColor.lightGray.cgColor
