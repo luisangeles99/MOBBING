@@ -29,9 +29,11 @@
 #import "QULQuestionnaireSortableViewController.h"
 #import "QULQuestionnaireInstructionViewController.h"
 
+
 @interface QULQuestionnaireViewController ()
 
 @property (strong, nonatomic) NSMutableArray *stepViewControllers;
+
 
 @end
 
@@ -70,6 +72,7 @@
         if ([question[@"type"] isEqualToString:@"radio"]) {
             viewController = [[QULQuestionnaireSingleSelectViewController alloc] init];
             ((QULQuestionnaireSingleSelectViewController*)viewController).questionnaireData = question;
+                
         } else if ([question[@"type"] isEqualToString:@"checkbox"]) {
             viewController = [[QULQuestionnaireMultiSelectViewController alloc] init];
             ((QULQuestionnaireMultiSelectViewController*)viewController).questionnaireData = question;
@@ -93,7 +96,7 @@
         }
         
         if (viewController) {
-            viewController.step.title = (question[@"title"]) ? question[@"title"] : [NSString stringWithFormat:@"%u",idx+1];
+            viewController.step.title = (question[@"title"]) ? question[@"title"] : [NSString stringWithFormat:@"%lu",idx+1];
             
             [self.stepViewControllers addObject:viewController];
         }
@@ -104,10 +107,13 @@
     [self dismissViewControllerAnimated:YES completion:nil];
     
     self.results[@"endTime"] = [NSDate date];
+    
 }
 
 - (void)canceled {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
+
 
 @end

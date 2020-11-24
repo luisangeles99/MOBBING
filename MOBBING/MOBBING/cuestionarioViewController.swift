@@ -15,6 +15,7 @@ class cuestionarioViewController: UIViewController {
     var data : Data!
     var preguntas : NSArray!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         loadCuestionario()
@@ -24,12 +25,13 @@ class cuestionarioViewController: UIViewController {
     
 
     
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let view = segue.destination as! realizarQul
-        view.arr = preguntas as! [Any]
+        view.arr = preguntas as? [Any]
     }
     
     
@@ -47,9 +49,4 @@ class cuestionarioViewController: UIViewController {
         }
     }
     
-    func mostrarCuestionario(){
-        
-        
-    }
-
 }

@@ -30,10 +30,12 @@ static const NSInteger otherOption = -1;
 @property (strong, nonatomic) UIButton *nextButton;
 @property (strong, nonatomic) NSMutableArray *buttons;
 @property (strong, nonatomic) UITextField *textField;
+@property int cantidad;
 
 @end
 
 @implementation QULQuestionnaireSingleSelectViewController
+
 
 - (instancetype)init
 {
@@ -53,7 +55,7 @@ static const NSInteger otherOption = -1;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    _cantidad = 0;
     if(([self.questionnaireData[@"orientation"] integerValue] == QULQuestionnaireSingleSelectOrientationHorizontal) &&
        (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)) {
         NSAssert1([self.questionnaireData[@"options"] count] <= 7,
@@ -388,6 +390,13 @@ static const NSInteger otherOption = -1;
             } else {
                 NSDictionary *option = self.questionnaireData[@"options"][button.tag];
                 result[@"answer"] = option[@"key"];
+                /*
+                NSString *temp;
+                temp = option[@"key"];
+                int val;
+                if ((val = temp.intValue) != 0){
+                    _cantidad = _cantidad + val;
+                }*/   
             }
             
             *stop = YES;
@@ -406,10 +415,13 @@ static const NSInteger otherOption = -1;
     
     for (UIButton *button in self.buttons) {
         button.selected = (button == selected);
+        
     }
     
     if (selected.tag == otherOption &&  self.textField) {
         [self.textField becomeFirstResponder];
+        
+        
     }
 }
 
@@ -418,6 +430,7 @@ static const NSInteger otherOption = -1;
     if ([[self.view viewWithTag:textField.tag] isKindOfClass:[UIButton class]]) {
         UIButton *button = (UIButton *)[self.view viewWithTag:textField.tag];
         [self didSelectButton:button];
+        
     }
 }
 
