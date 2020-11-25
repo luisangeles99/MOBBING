@@ -10,15 +10,34 @@ import UIKit
 
 class resultadosAnterioresViewController: UIViewController {
 
+    
+    @IBOutlet weak var puntajeLabel: UILabel!
+    @IBOutlet weak var fechaLabel: UILabel!
+    @IBOutlet weak var titLabel: UILabel!
+    var num: Int!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        title = "Resultados anteriores"
         
+        titLabel.text = "Caso #00" + String(num!)
+        
+        if num == 1{
+            puntajeLabel.text = "35/50"
+        }else{
+            puntajeLabel.text = "42/50"
+        }
+        
+        title = "Resultados anteriores"
+        self.navigationController?.navigationBar.isHidden = false
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func btnInfo(_ sender: Any) {
+        let alert = UIAlertController(title: "Estado", message: "El estado actual de tu caso es: departamento de recursos humanos ya tomó acciones.", preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		88014407256B5DC000BD25CD /* buttonWhite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88014406256B5DC000BD25CD /* buttonWhite.swift */; };
+		88014409256D723A00BD25CD /* resultadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88014408256D723A00BD25CD /* resultadosViewController.swift */; };
 		887EA0522561D77200644E0C /* realizarQul.m in Sources */ = {isa = PBXBuildFile; fileRef = 887EA0512561D77200644E0C /* realizarQul.m */; };
 		88C63A63255B2CD5006DB84C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A62255B2CD5006DB84C /* AppDelegate.swift */; };
 		88C63A65255B2CD5006DB84C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A64255B2CD5006DB84C /* SceneDelegate.swift */; };
@@ -52,6 +53,7 @@
 		18E1497911496DAE382DE758 /* Pods-MOBBING.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOBBING.release.xcconfig"; path = "Target Support Files/Pods-MOBBING/Pods-MOBBING.release.xcconfig"; sourceTree = "<group>"; };
 		24B25A9E500E13CD0024C1E4 /* Pods_MOBBING.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MOBBING.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88014406256B5DC000BD25CD /* buttonWhite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonWhite.swift; sourceTree = "<group>"; };
+		88014408256D723A00BD25CD /* resultadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultadosViewController.swift; sourceTree = "<group>"; };
 		887EA0502561D77100644E0C /* MOBBING-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MOBBING-Bridging-Header.h"; sourceTree = "<group>"; };
 		887EA0512561D77200644E0C /* realizarQul.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = realizarQul.m; sourceTree = "<group>"; };
 		887EA0532561D7DE00644E0C /* realizarQul.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = realizarQul.h; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				88C63A98255CE740006DB84C /* listaOpcionesViewController.swift */,
 				88C63A96255CE728006DB84C /* loginViewController.swift */,
 				88C63A68255B2CD5006DB84C /* Main.storyboard */,
+				88014408256D723A00BD25CD /* resultadosViewController.swift */,
 				887EA0502561D77100644E0C /* MOBBING-Bridging-Header.h */,
 				88C63AA0255CE777006DB84C /* mostrarResultadosViewController.swift */,
 				88C63AA62561C7B5006DB84C /* preguntas.json */,
@@ -384,6 +387,7 @@
 				88C63A99255CE740006DB84C /* listaOpcionesViewController.swift in Sources */,
 				88C63A63255B2CD5006DB84C /* AppDelegate.swift in Sources */,
 				88C63AA52561BF10006DB84C /* realizarCuestionarioViewController.swift in Sources */,
+				88014409256D723A00BD25CD /* resultadosViewController.swift in Sources */,
 				887EA0522561D77200644E0C /* realizarQul.m in Sources */,
 				88C63A9B255CE74B006DB84C /* cuestionarioViewController.swift in Sources */,
 				88C63A65255B2CD5006DB84C /* SceneDelegate.swift in Sources */,

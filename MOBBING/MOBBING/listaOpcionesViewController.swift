@@ -18,7 +18,7 @@ class listaOpcionesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.navigationController?.navigationBar.isHidden = false
+        self.navigationController?.navigationBar.isHidden = true
         
         nombreLabel.text = nombre
         // Do any additional setup after loading the view.
@@ -37,6 +37,12 @@ class listaOpcionesViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     
+    
+    @IBAction func encuestaBtn(_ sender: Any) {
+        if let url = URL(string: "https://forms.gle/6ZnytDAd6KiiTHGK7") {
+            UIApplication.shared.open(url)
+        }
+    }
     
     
 
